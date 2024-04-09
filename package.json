@@ -12,18 +12,20 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@types/node": "^20.12.6",
+    "@types/node": "20.12.6",
     "@typescript-eslint/eslint-plugin": "7.6.0",
     "@typescript-eslint/parser": "7.6.0",
     "eslint": "9.0.0",
     "prettier": "3.2.5",
-    "tsup": "^8.0.2",
-    "tsx": "^4.7.2",
-    "typescript": "^5.4.4"
+    "prisma": "5.12.1",
+    "tsup": "8.0.2",
+    "tsx": "4.7.2",
+    "typescript": "5.4.4"
   },
   "dependencies": {
+    "@prisma/client": "5.12.1",
     "dotenv": "16.4.5",
-    "fastify": "^4.26.2",
+    "fastify": "4.26.2",
     "zod": "3.22.4"
   }
 }
