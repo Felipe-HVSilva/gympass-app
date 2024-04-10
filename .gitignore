@@ -1,6 +1,9 @@
 # Dependecies
 node_modules
 
+# Tests
+coverage
+
 # Environment
 .env
 
