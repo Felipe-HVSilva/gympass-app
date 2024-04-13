@@ -30,7 +30,6 @@ export default <Environment>{
 
     execSync('npx prisma migrate deploy')
 
-    console.log('exec')
     return {
       async teardown() {
         await prisma.$executeRawUnsafe(
